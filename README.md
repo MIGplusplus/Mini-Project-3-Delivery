@@ -56,29 +56,27 @@ Our goal, was to package and deliver the program sucessfully to users using an A
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Insturctions on how to setup the program locally on your machine. 
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+1. Obtain the Program:
+- From this github repository, you will need to download the necessary file in order to run the program.
+2. **Operating System** Specific:
+- Navigate to the `EXPORTS` folder, and Identify what OS your machine is running. 
+  - **Windows:** download the entire `windows` folder
+  - **Linux:** download the entire `linux` folder
+3. Once the folder is downloaded, the executable file will be situtated inside `dist`. Be sure to note where this is located.
+  
+4. Run the Program:
+   - Refer to the <a href="#Usage">Usage</a> section for further instructions
+   
+   
+
+
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,6 +89,13 @@ Once the program is installed (make sure to follow all the instructions in the <
 Ensure that you have the `dist` and `build` folders together, as well as a log file (such as the provided `python-example-log.txt`). 
 
 To execute the program, one simply has to run the executable located in the `dist` folder, and provide the log file as a command-line argument.
+- Open a terminal or command prompt.
+   - Use the following command to run the program:
+   ```sh
+   LogLens <log_file>
+   ```
+- Replace `<log_file>` with the path to your log file and specify additional options as needed (refer to the usage guide below). 
+- **Additionally**, theres a provided example log file titled `python-example-log.txt` if the user wishes to test it out beforehand. 
 
 For example:
 
