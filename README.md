@@ -86,10 +86,25 @@ To get a local copy up and running follow these simple example steps.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+Once the program is installed (make sure to follow all the instructions in the <a href="#installation">Installation</a> section), using it is very simple.
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Ensure that you have the `dist` and `build` folders together, as well as a log file (such as the provided `python-example-log.txt`). 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+To execute the program, one simply has to run the executable located in the `dist` folder, and provide the log file as a command-line argument.
+
+For example:
+
+```
+$ dist/loglens python-example-log.txt
+```
+
+Or, if you cloned the entire repository:
+
+```
+$ EXPORTS/linux/dist/loglens EXPORTS/linux/python-example-log.txt
+```
+
+Similarly, the `.exe` file will need to be run through a command line in Windows systems as well.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +114,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ### It's not letting me run the file!
 If you cannot run the executable file (whether it be the `.exe` or the script), then this may indicate that you do not have the correct permissions for the file.
 
-In a Linux system, you can ensure that the user has permission to execute the file by running the following command: `$ chmod +x dist/loglens`.
+In a Linux system, you can ensure that the user has permission to execute the file by running the following command:
+```
+$ chmod +x dist/loglens
+```
 
 In a Windows system, the permissions work differently. As the file is an executable (`.exe`), it should be able to natively run. If it does not, then try right-clicking and running it as an administrator. If this does not work, one should right-click on the file, click `Properties` (or alternatively, use the `Alt+Enter` shortcut), and then check the permissions under the 'Security' tab. 
 
@@ -134,8 +152,6 @@ Distributed under the MIT license. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: images/screenshot.png
-
 [Python.py]:https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 
 [Python-url]:https://www.python.org/
