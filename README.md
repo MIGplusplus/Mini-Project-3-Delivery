@@ -32,14 +32,25 @@
 
 
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
+The original application, `loglens` was programmed by our Professor `Dr. Eric Rapos`,  it functions as a log analysis and monitoring tool. It processes log files, applies filters, generates statistics, and produces reports to help users understand and monitor system health or identify issues. Key features include:
+
+- Filtering: By date range, severity level, or patterns (using regex).
+- Analysis: Extracts metrics like severity counts, error rates, and common terms.
+- Alerts: Detects and notifies when error rates exceed user-defined thresholds.
+- Reports: Generates customizable reports in text or CSV format.
+
+
+Our goal, was to package and deliver the program sucessfully to users using an Appropriate Packaging Method of our choosing. After careful consideration, we chose to use `pyinstaller` over `virtualenv` due to its relative straightforward approach -> simply download the `loglens.exe` file or on linux/mac the scrip file to run the application. With Virtual Environment, it would need a python interpreter downloaded initially in order to set up on a given user's machine. 
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 ### Built With
-[![Python][Python.py]][Python-url]
+
+* [![Python][Python.py]][Python-url]
+* [![Pyinstaller][Pyinstaller.py]][Pyinstaller-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -142,5 +153,19 @@ Distributed under the MIT license. See `LICENSE.txt` for more information.
 [product-screenshot]: images/screenshot.png
 [Python.py]:https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]:https://www.python.org/
+[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://reactjs.org/
+[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[Vue-url]: https://vuejs.org/
+[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
+[Angular-url]: https://angular.io/
+[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
+[Svelte-url]: https://svelte.dev/
+[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
+[Laravel-url]: https://laravel.com
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery-url]: https://jquery.com 
 
 [Pyinstaller-url]: https://pyinstaller.org/en/stable/
