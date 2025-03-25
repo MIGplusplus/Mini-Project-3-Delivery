@@ -71,12 +71,6 @@ Insturctions on how to setup the program locally on your machine.
 4. Run the Program:
    - Refer to the <a href="#Usage">Usage</a> section for further instructions
    
-   
-
-
-
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,26 +82,29 @@ Once the program is installed (make sure to follow all the instructions in the <
 
 Ensure that you have the `dist` and `build` folders together, as well as a log file (such as the provided `python-example-log.txt`). 
 
-To execute the program, one simply has to run the executable located in the `dist` folder, and provide the log file as a command-line argument.
+To execute the program, one simply has to run the executable located in the `dist` folder, and provide the log file as a command-line argument:
+
 - Open a terminal or command prompt.
    - Use the following command to run the program:
-   ```sh
-   LogLens <log_file>
-   ```
-- Replace `<log_file>` with the path to your log file and specify additional options as needed (refer to the usage guide below). 
-- **Additionally**, theres a provided example log file titled `python-example-log.txt` if the user wishes to test it out beforehand. 
+   
+      ```sh
+      dist/loglens <log_file>
+      ```
+      
+   - Make sure you use the correct path to the `loglens` path.s
+   - Replace `<log_file>` with the path to your log file and specify additional options as needed (refer to the usage guide below). 
+   - **Additionally**, theres a provided example log file titled `python-example-log.txt` if the user wishes to test it out beforehand. 
 
-For example:
+- For example:
+  ```
+  $ dist/loglens python-example-log.txt
+  ```
 
-```
-$ dist/loglens python-example-log.txt
-```
+- Or, if you cloned the entire repository:
 
-Or, if you cloned the entire repository:
-
-```
-$ EXPORTS/linux/dist/loglens EXPORTS/linux/python-example-log.txt
-```
+  ```
+  $ EXPORTS/linux/dist/loglens EXPORTS/linux/python-example-log.txt
+  ```
 
 Similarly, the `.exe` file will need to be run through a command line in Windows systems as well.
 
