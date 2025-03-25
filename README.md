@@ -30,8 +30,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-
-
 The original application, `loglens` was programmed by our Professor `Dr. Eric Rapos`,  it functions as a log analysis and monitoring tool. It processes log files, applies filters, generates statistics, and produces reports to help users understand and monitor system health or identify issues. Key features include:
 
 - Filtering: By date range, severity level, or patterns (using regex).
