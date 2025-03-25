@@ -102,21 +102,17 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
-
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
 
-### Top contributors:
--Nooh Alavi
--Miguel Dela Torre
--Hayden Robinson
--Hanfu Xiao
+### Contributors:
+- Hayden Robinson
+- Miguel Dela Torre
+- Nooh Alavi
+- Shawn Xiao
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- LICENSE -->
@@ -125,23 +121,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 Distributed under the MIT license. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
