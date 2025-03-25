@@ -39,8 +39,7 @@ Here's a blank template to get started. To avoid retyping too much info, do a se
 
 
 ### Built With
-
-* [![Python][Python.py]][Python-url]
+[![Python][Python.py]][Python-url]
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -98,11 +97,19 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- TROUBLESHOOTING -->
 ## Troubleshooting
-Tips:
+### It's not letting me run the file!
+If you cannot run the executable file (whether it be the `.exe` or the script), then this may indicate that you do not have the correct permissions for the file.
 
+In a Linux system, you can ensure that the user has permission to execute the file by running the following command: `$ chmod +x dist/loglens`.
 
-FAQs:
+In a Windows system, the permissions work differently. As the file is an executable (`.exe`), it should be able to natively run. If it does not, then try right-clicking and running it as an administrator. If this does not work, one should right-click on the file, click `Properties` (or alternatively, use the `Alt+Enter` shortcut), and then check the permissions under the 'Security' tab. 
 
+### The app is immediately closing!
+If—upon running it—the app opens up a terminal window that immediately closes, then this means that it was probably run incorrectly.
+
+The file has to be run through the terminal, and a log file has to be provided as a command-line argument.
+
+Please make sure to re-read the <a href="#usage">Usage instructions</a> for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
