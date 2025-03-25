@@ -56,17 +56,17 @@ Our goal, was to package and deliver the program sucessfully to users using an A
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Insturctions on how to setup the program locally on your machine. 
+Instructions on how to setup the program locally on your machine. 
 
 ### Installation
 
 1. Obtain the Program:
-- From this github repository, you will need to download the necessary file in order to run the program.
+   -  From this github repository, you will need to download the necessary file in order to run the program.
 2. **Operating System** Specific:
-- Navigate to the `EXPORTS` folder, and Identify what OS your machine is running. 
-  - **Windows:** download the entire `windows` folder
-  - **Linux:** download the entire `linux` folder
-3. Once the folder is downloaded, the executable file will be situtated inside `dist`. Be sure to note where this is located.
+   - Navigate to the `EXPORTS` folder, and Identify what OS your machine is running. 
+     - **Windows:** download the entire `windows` folder
+     - **Linux:** download the entire `linux` folder
+3. Once the folder is downloaded, the executable file will be situtated inside `dist/`. Be sure to note where this is located.
   
 4. Run the Program:
    - Refer to the <a href="#Usage">Usage</a> section for further instructions
